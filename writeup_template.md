@@ -17,7 +17,7 @@ The goals / steps of this project are the following:
 [image3]: ./images/left.png "Left"
 [image4]: ./images/right.png "Right"
 [image5]: ./images/original.png "Normal Image"
-[image6]: ./images/flip.png "Flipped Image"
+[image6]: ./images/flipped.png "Flipped Image"
 
 
 #### 1. Submission includes all required files and can be used to run the simulator in autonomous mode
