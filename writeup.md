@@ -81,7 +81,7 @@ My first step was to use a simple regresion model to test the code, and I found 
 Secondly, I add the Lambda layer to normalize the data and have the steering angle be at the range 0~0.5. Yet after 7 epochs, the mse does not decrease as expected. Also, the model could not handle well some turning point.
 - Here's a [video of my second attempt result](https://www.youtube.com/watch?v=QHVVfoXmf-s)
 
-Third, I used the LeNet Pipeline.
+Third, I used the LeNet Network architecture.
 - Here's a [link of my third attempt result](https://www.youtube.com/watch?v=Zf5BX9LkMTw&feature=youtu.be)
 
 Third, I applied the NVIDIA Model, mainly because this is designed for self-driving cars.
