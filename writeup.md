@@ -44,15 +44,15 @@ The model.py file contains the code for training and saving the convolution neur
 
 My model consists of 6 convolution layers and 4 fully connected layers(model.py lines 18-24) 
 
-The model includes RELU layers to introduce nonlinearity (code line 20), and the data is normalized in the model using a Keras lambda layer (code line 18). 
+The model includes RELU layers to introduce nonlinearity (code line 81), and the data is normalized in the model using a Keras lambda layer (code line 75). 
 
 The model includes average pooling layers to reduce dimension.
 
 #### 2. Attempts to reduce overfitting in the model
 
-The model contains dropout layers in order to reduce overfitting (model.py lines 21). 
+The model contains dropout layers in order to reduce overfitting (model.py lines 95). 
 
-The model was trained and validated on different data sets(8:2) to ensure that the model was not overfitting (code line 10-16). The model was tested by running it through the simulator and ensuring that the vehicle could stay on the track.
+The model was trained and validated on different data sets(8:2) to ensure that the model was not overfitting (code line 24). The model was tested by running it through the simulator and ensuring that the vehicle could stay on the track.
 
 The model includes dropout layers to prevent overfitting.
 
@@ -84,7 +84,7 @@ Secondly, I add the Lambda layer to normalize the data and have the steering ang
 Third, I used the LeNet Network architecture.
 - Here's a [link of my third attempt result](https://www.youtube.com/watch?v=Zf5BX9LkMTw&feature=youtu.be)
 
-Third, I applied the NVIDIA Model, mainly because this is designed for self-driving cars.
+Finally, I applied the NVIDIA Model, mainly because this is designed for self-driving cars.
 - Here's a [link of my final attempt result](https://www.youtube.com/watch?v=dkpp-7_lKFU&feature=youtu.be)
 For the final attempt with NVIDIA model, the car could completely drive on the lane under autonomous mode. Under some circumstance, when off-centered, the car could also drive back to the center.
 
@@ -98,7 +98,7 @@ At the end of the process, the vehicle is able to drive autonomously around the 
 
 #### 2. Final Model Architecture
 
-The final model architecture (model.py lines 18-24) 
+The final model architecture (model.py lines 73-99) 
 Here is a visualization of the architecture:
 
 ![alt text][image1]
