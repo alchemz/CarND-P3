@@ -73,16 +73,16 @@ For details about how I created the training data, see the next section.
 
 #### 1. Solution Design Approach
 
-The overall strategy for deriving a model architecture was to ...
+The overall strategy for deriving a model architecture was to have the car drive autonomously.
 
 My first step was to use a simple regresion model to test the code, and I found that the regression.h5 model could only have the car drive in one direction, soon the car went out of the lane.
-Here's a [link to my first attempt result](https://www.youtube.com/watch?v=zECyRmw8ebI&feature=youtu.be)
+- Here's a [video of my first attempt result](https://www.youtube.com/watch?v=zECyRmw8ebI&feature=youtu.be)
 
 Secondly, I add the Lambda layer to normalize the data and have the steering angle be at the range 0~0.5. Yet after 7 epochs, the mse does not decrease as expected. Also, the model could not handle well some turning point.
-Here's a [link to my second attempt result](https://www.youtube.com/watch?v=QHVVfoXmf-s)
+- Here's a [video of my second attempt result](https://www.youtube.com/watch?v=QHVVfoXmf-s)
 
 Third, I used the NVIDIA Deep Learning model, mainly because this model is designed for self-driving car training. 
-Here's a [link to my second attempt result](https://www.youtube.com/watch?v=Zf5BX9LkMTw&feature=youtu.be)
+- Here's a [link of my second attempt result](https://www.youtube.com/watch?v=Zf5BX9LkMTw&feature=youtu.be)
 
 In order to gauge how well the model was working, I split my image and steering angle data into a training and validation set. I found that my first model had a low mean squared error on the training set but a high mean squared error on the validation set. This implied that the model was overfitting. 
 
