@@ -130,3 +130,5 @@ After the collection process, I had 6428 number of data points.
 I finally randomly shuffled the data set and put 20% of the data into a validation set. 
 
 I used this training data for training the model. The validation set helped determine if the model was over or under fitting. The ideal number of epochs was 5, and after 5 epochs, the loss does not decrease much. I used an adam optimizer so that manually training the learning rate wasn't necessary.
+
+The video is too big, so I have it uploaded to [Youtube](https://www.youtube.com/watch?v=dkpp-7_lKFU&feature=youtu.be)
